@@ -51,10 +51,10 @@ p{
     overflow: hidden;
 }
 .fondo{
-    background: rgb(119, 188, 253);
+    background: var(--bg-2);
 }
 .margin-top{
-    margin-top: 4.5em;
+    margin-top: 4em;
 }
 
 .margin-bot{
@@ -62,7 +62,7 @@ p{
 }
 
 .contact-w{
-    width: 120px;
+    width: 130px;
 }
 
 
