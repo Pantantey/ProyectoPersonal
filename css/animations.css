@@ -585,3 +585,16 @@
     color: #196e83;
   }
 }
+
+/*animation arrow*/
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0) rotate(45deg);
+  }
+  40% {
+      transform: translateY(10px) rotate(45deg);
+  }
+  60% {
+      transform: translateY(5px) rotate(45deg);
+  }
+}
