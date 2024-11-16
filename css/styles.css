@@ -64,7 +64,9 @@ p {
 .contact-w {
   width: 130px;
 }
-
+.img-size{
+  width: 40%;
+}
 .header {
   min-height: 70px;
   top: 0;
@@ -250,5 +252,8 @@ p {
   }
   .absoluto {
     position: absolute;
+  }
+  .img-size{
+    width: 30%;
   }
 }

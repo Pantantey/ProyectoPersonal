@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <title>Wink</title>
+</head>
+
+<body class="container-fluid px-0">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light header d-flex justify-content-center py-4">
+            <a class="navbar-brand ms-5 fs-4" href="index.html" id="b-header">Andrey Fernández</a>
+            <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end ms-5 me-5" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html#proyectos" id="b-header">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animations.html" id="b-header">ANIMACIONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" id="b-header">SOBRE MÍ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="d-grid justify-content-center">
+        <h2 class="fw-bold text-center mt-5 mx-5">Aplicación para realizar transacciones por medio de Sinpe móvil</h2> <br>
+
+        <div class="container row d-flex justify-content-center px-4">
+            <div class="col-lg-5 my-5 d-grid justify-content-center">
+                <p class="">
+                    Desarrollé una aplicación móvil multiplataforma utilizando React Native, enfocada en simplificar y
+                    optimizar transacciones financieras para los usuarios. Este framework me permitió crear una interfaz
+                    intuitiva y consistente tanto en Android como en iOS, asegurando una experiencia de usuario ágil y
+                    responsiva. React Native fue clave para integrar funcionalidades como el manejo de listas de
+                    transacciones, botones interactivos y navegación fluida entre pantallas. <br>
+                    La aplicación se conecta con AWS DynamoDB, una base de datos NoSQL en la nube, para almacenar
+                    información esencial como balances de usuarios, historial de transacciones y contactos frecuentes.
+                    La elección de DynamoDB permitió un almacenamiento seguro, con alta disponibilidad y capacidad de
+                    escalar según el crecimiento de los datos. Además, se implementó un diseño eficiente para consultas
+                    rápidas y actualizaciones en tiempo real. <br>
+                    Para manejar la lógica del servidor, integré funciones AWS Lambda, encargadas de validar
+                    transacciones, procesar envíos de dinero y actualizar los balances de los usuarios. Estas funciones
+                    se ejecutan en la nube, asegurando escalabilidad y un manejo eficiente de los recursos. Gracias a
+                    Lambda, los usuarios reciben confirmaciones rápidas y consistentes de sus operaciones, lo que
+                    garantiza una experiencia confiable. <br>
+                    Este proyecto combina lo mejor de las tecnologías móviles y los servicios en la nube, demostrando mi
+                    habilidad para desarrollar soluciones completas e integradas. React Native me permitió crear una
+                    interfaz atractiva y funcional, mientras que AWS DynamoDB y Lambda aseguraron un backend robusto y
+                    escalable, logrando una aplicación eficiente y lista para el futuro.
+                </p>
+
+            </div>
+
+
+
+            <div class="col-lg-4 ps-lg-5 ms-lg-5 pt-lg-5 fadeInLeft-animation d-grid justify-content-center">
+                <img class="w-75" src="img/aws_logo_smile_1200x630.png" alt="">
+                <img class="w-75 my-5" src="img/lambda.png" alt="">
+                <img class="w-75 mb-5" src="img/dynamoDB.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="d-grid justify-content-center gap-5">
+        <div class="d-flex justify-content-center gap-5">
+            <img class="img-size" src="img/wink1.png" alt="">
+            <img class="img-size" src="img/wink2.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center gap-5">
+            <img class="img-size" src="img/wink3.png" alt="">
+            <img class=" img-size" src="img/wink4.png" alt="">
+        </div>
+    </div>
+
+
+
+    <footer class="d-flex justify-content-center py-3 gap-4">
+        <div class="d-flex align-items-center">
+            <h4>Contacto</h4>
+        </div>
+        <div class="fs-6">
+            <a class="nav-link link-footer" href="https://github.com/Pantantey/" target="_blank"><i
+                    class="bi bi-github me-2"></i>Github</a>
+            <a class="nav-link link-footer" href="https://wa.me/+50687638876" target="_blank"><i
+                    class="bi bi-whatsapp me-2"></i></i>WhatsApp</a>
+            <a class="nav-link link-footer" href="mailto:andrey99fr@gmail.com" target="_blank"><i
+                    class="bi bi-envelope-at me-2"></i></i>Email</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>
